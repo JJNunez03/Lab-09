@@ -1,0 +1,42 @@
+[
+    {
+        "origin": "LAX",
+        "destination": "ORD",
+        "flight_number": "545",
+        "departure": "12:30pm",
+        "arrival": "4:40pm",
+        "duration": "4:10"
+    },
+    {
+        "origin": "ORD",
+        "destination": "CLE",
+        "flight_number": "409",
+        "departure": "5:33pm",
+        "arrival": "6:57pm",
+        "duration": "1:24"
+    },
+    {
+        "origin": "CLE",
+        "destination": "IAD",
+        "flight_number": "83",
+        "departure": "7:53pm",
+        "arrival": "9:19pm",
+        "duration": "1:26"
+    },
+    {
+        "origin": "IAD",
+        "destination": "LHR",
+        "flight_number": "1",
+        "departure": "10:00pm",
+        "arrival": "+5:30am",
+        "duration": "7:30"
+    },
+    {
+        "origin": "LHR",
+        "destination": "LAX",
+        "flight_number": "2222",
+        "departure": "11:55pm",
+        "arrival": "+10:01pm",
+        "duration": "22:06"
+    }
+]

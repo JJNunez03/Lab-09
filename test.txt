@@ -1,0 +1,13 @@
+test_list_int (test.Test01_ADDFLIGHT.test_list_int)
+*** Test01 *** FUNCTION CALL: f.add_flight('XXX','YYY','9999','0907','Y','1509') THEN fts = f.get_flights() *** EXPECT: fts[0] == ['XXX', 'YYY', '9999', '9:07am', '+3:09pm', '6:02'] *** ... File 'f99.dat' not found. Starting with an empty schedule.
+
+ok
+test_list_int (test.Test02_ADDFLIGHT.test_list_int)
+*** Test02 *** FUNCTION CALL: f.add_flight('XXX','YYY','9999','0035','N','2336') THEN fts = f.get_flights() *** EXPECT: fts[0] == ['XXX', 'YYY', '9999', '12:35am', '11:36pm', '23:01'] *** ... File 'f99.dat' not found. Starting with an empty schedule.
+
+ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.004s
+
+OK
